@@ -1,5 +1,5 @@
 #!/bin/sh
 
 echo "Downloading last Jenkins App"
-curl -O http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+curl http://mirrors.jenkins.io/war-stable/latest/jenkins.war $1\jenkins.war
 echo "Jenkins downloaded"
